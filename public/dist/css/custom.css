@@ -1,0 +1,111 @@
+.body_bg {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.custom-button {
+    background: #450aaa;
+    color: #fff;
+    transition: 0.5s all ease;
+}
+
+.custom-button:hover {
+    background: #672ec9;
+    color: #fff;
+}
+.card-box {
+    margin-top: 100px;
+}
+
+.bg_table {
+    background: #f5f5f5;
+}
+
+.bg_product {
+    background: #fff;
+}
+
+.dt-button {
+    padding: 5px;
+    background: #0062cc;
+    color: #fff;
+}
+.dt-button:hover {
+    background: #0351a5;
+    color: #fff;
+}
+
+.center-margin {
+    margin: 50px auto;
+    background-color: rgb(248, 245, 245);
+}
+
+@media only screen and (max-width: 768px) {
+    .card-box {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card-box {
+        margin-top: 30px;
+    }
+}
+
+/* dashboard section */
+html {
+    scroll-behavior: smooth;
+  }
+
+.invoice{
+    background:linear-gradient(to right, #5A27D6,#2F66F5);
+    color: white;
+}
+.new__invoice{
+    background:linear-gradient(to right, #FD6119,#FFA417);
+    color: white;
+
+}
+
+.add__product{
+    background:linear-gradient(to right, #20B888,#83D24B);
+    color: white;
+
+}
+
+
+.add__customer{
+    background:linear-gradient(to right, #F11965,#FD5819);
+    color: white;
+
+}
+.sales__report{
+    background:linear-gradient(to right, #15B9B9,#1D7ACC);
+    color: white;
+
+}
+.purses__report{
+    background:linear-gradient(to right,#7E2BD9 , #CA3BBE);
+    color: white;
+
+}
+.stock__report{
+    background:linear-gradient(to right, #F8A22F,#FB5F1E);
+    color: white;
+
+}
+.account__summary{
+    background:linear-gradient(to right,#338bd8 ,#0cbdbd);
+    color: white;
+
+}
+.text__color{
+    color: white !important;
+}
+
+.bg-light1{
+    background-color: rgb(214, 238, 242);
+    padding: 40px;
+}
